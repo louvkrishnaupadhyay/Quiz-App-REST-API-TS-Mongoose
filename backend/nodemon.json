@@ -1,13 +1,14 @@
 {
   "env": {
-    "CONNECTION_STRING": "<DATABASE_CONNECTION_STRING>",
+    "CONNECTION_STRING": "mongodb+srv://myuser:rqpx7XtdlBHH9IQD@cluster0.v3bamgn.mongodb.net/",
     "PORT": 3002,
-    "SECRET_KEY": "<ENCRYPTION_SECRET>",
-    "USER": "<USER_EMAIL>",
-    "PASS": "<USER_PASSWORD>",
-    "HOST": "<SERVICE_PROVIDER>",
-    "BASE_URL": "<SERVER_BASE_URL>",
-    "CORS_ORIGIN_URL":"<CLIENT_BASE_URL>"
+    "SECRET_KEY":"quizappsecret123",
+    "USER":"louv2k@gmail.com",
+    "PASS":"cmjvcclpwzepyuva",
+    "HOST":"smtp.gmail.com",
+    "BASE_URL":"http://localhost:3002",
+    "CORS_ORIGIN_URL":"localhost:3000"
+
   },
   "watch": ["src"],
   "ext": "ts,json",
