@@ -1,0 +1,91 @@
+.container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.primaryButton {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.primaryButton:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.quizGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.quizCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+  color: #333;
+}
+
+.quizCard:hover {
+  transform: translateY(-5px);
+}
+
+.quizTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.quizStatus {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.publishButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #48bb78;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.publishButton:hover {
+  background: #38a169;
+}
+
+.empty {
+  margin-top: 20px;
+  font-size: 18px;
+}
