@@ -1,9 +1,9 @@
 {
   "env": {
-    "CONNECTION_STRING": "mongodb+srv://myuser:rqpx7XtdlBHH9IQD@cluster0.v3bamgn.mongodb.net/",
+    "CONNECTION_STRING": "CONNECTION_STRING",
     "PORT": 3002,
     "SECRET_KEY":"quizappsecret123",
-    "USER":"louv2k@gmail.com",
+    "USER":"xyz@gmail.com",
     "PASS":"kjsbfljblfann",
     "HOST":"smtp.gmail.com",
     "BASE_URL":"http://localhost:3002",
